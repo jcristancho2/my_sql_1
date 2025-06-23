@@ -58,7 +58,7 @@ El proyecto contiene los siguientes archivos y carpetas:
 
 1. **Clonar el repositorio**
 ```bash
-git clone [https://github.com/yourusername/taller-mysql.git](https://github.com/jcristancho2/my_sql_1.git)
+git clone [(https://github.com/jcristancho2/my_sql_1.git)]
 cd taller-mysql-1
 ```
 
