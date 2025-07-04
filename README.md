@@ -14,9 +14,12 @@ Repositorio desarrollado como parte de ejercicios prácticos del curso de bases 
 
 El proyecto contiene los siguientes archivos y carpetas:
 
-- `01_creacion_base_datos.sql`: Script con las sentencias `CREATE DATABASE`, creación de tablas con claves primarias y foráneas, y definición de relaciones.
-- `02_inserts.sql`: Sentencias `INSERT INTO` con datos de prueba para poblar las tablas.
-- `03_consultas.sql`: Consultas SQL para extracción de datos relevantes.
+- `01_creacion_base_datos.`: Script con las sentencias `CREATE DATABASE`, creación de tablas con claves primarias y foráneas, y definición de relaciones.
+- `02_inserts.`: Sentencias `INSERT INTO` con datos de prueba para poblar las tablas.
+- `03_consultas.`: Consultas SQL para extracción de datos relevantes.
+- `04_sub consultas.`: Se utiliza para realizar operaciones más complejas y obtener resultados basados en datos de otras tablas o de la misma tabla, actuando como un filtro o fuente de datos para la consulta principal.
+- `05_procedimientos almacenados.`: es una subrutina almacenada en el catálogo de la base de datos.
+
 - `diagramas/`: Diagramas entidad-relación exportados desde herramientas como MySQL Workbench o StarUML.
 
 ## 🛠️ Tecnologías Utilizadas
@@ -39,6 +42,8 @@ El proyecto contiene los siguientes archivos y carpetas:
 - Consultas con `JOIN`, `GROUP BY`, `ORDER BY`
 - Inserción de datos estructurados
 - Integridad referencial
+- subconsultas
+- procedimientos almacenados
 
 ## ✅ Requisitos para Ejecutar
 
@@ -58,7 +63,8 @@ El proyecto contiene los siguientes archivos y carpetas:
 
 1. **Clonar el repositorio**
 ```bash
-git clone [(https://github.com/jcristancho2/my_sql_1.git)]
+git clone https://github.com/jcristancho2/my_sql_1.git
+
 cd taller-mysql-1
 ```
 
@@ -76,7 +82,7 @@ SHOW TABLES;
 
 ## 💻 Autor
 
-[**Jorge Andrés Cristancho Olarte**]  (https://github.com/jcristancho2)
+[**Jorge Andrés Cristancho Olarte**](https://github.com/jcristancho2)
 
 ## 📄 Licencia
 
@@ -86,7 +92,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 <div align="center">
 
-**¡Gracias por visaulizar el proyecto 👽️**
+**¡Gracias por visualizar el proyecto, pensamiento positivo ideas grandes 👽️**
 
 
 </div>
